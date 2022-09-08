@@ -1,7 +1,7 @@
 import { NextPage } from "next"
 import { json } from "stream/consumers";
 import { gql, useQuery } from "urql";
-import { DraftsDocument } from "../generated/graphql";
+import { DraftsDocument } from "../generated/codegen";
 
 export const query = gql`
   query Drafts {
